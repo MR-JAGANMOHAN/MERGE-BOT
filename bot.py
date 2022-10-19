@@ -488,13 +488,13 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻Developer👨‍💻", url="https://t.me/yashoswalyo")],
+                [InlineKeyboardButton("👨‍💻List of Bots👨‍💻", url="https://t.me/My_Test_Botz")],
                 [
                     InlineKeyboardButton(
-                        "🏘Source Code🏘", url="https://github.com/yashoswalyo/MERGE-BOT"
+                        "🏘 Donate Me 🏘", url="@Botz_Hub_admin_bot"
                     ),
                     InlineKeyboardButton(
-                        "🤔Deployed By🤔", url=f"https://t.me/{Config.OWNER_USERNAME}"
+                        "🤔Deployed By🤔", url=f"https://t.me/MR_JAGANMOHAN"
                     ),
                 ],
                 [InlineKeyboardButton("Close 🔐", callback_data="close")],
