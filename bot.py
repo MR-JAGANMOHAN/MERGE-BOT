@@ -491,7 +491,7 @@ async def about_handler(c: Client, m: Message):
                 [InlineKeyboardButton("👨‍💻List of Bots👨‍💻", url="https://t.me/My_Test_Botz")],
                 [
                     InlineKeyboardButton(
-                        "🏘 Donate Me 🏘", url="@Botz_Hub_admin_bot"
+                        "🏘 Donate Me 🏘", url="https://t.me/Botz_Hub_admin_bot"
                     ),
                     InlineKeyboardButton(
                         "🤔Deployed By🤔", url=f"https://t.me/MR_JAGANMOHAN"
